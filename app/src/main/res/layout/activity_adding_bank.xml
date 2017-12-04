@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.smartwallet.android.AddingBankActivity">
+
+    <TextView
+        android:id="@+id/bankText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textSize="24sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="You need a bank account to use this application"/>
+
+    <EditText
+        android:id="@+id/bankIban"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="IBAN"
+        android:layout_below="@+id/bankText"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:id="@+id/bankCode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Token"
+        android:layout_below="@+id/bankIban"
+        android:layout_alignParentStart="true" />
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/addBankAccount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:clickable="true"
+        android:foreground="?android:attr/selectableItemBackground"
+        app:cardBackgroundColor="@color/primaryColor"
+        app:cardCornerRadius="2dp"
+        app:cardElevation="6dp"
+        app:cardUseCompatPadding="true">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:paddingBottom="8.5dp"
+            android:paddingLeft="12dp"
+            android:paddingRight="12dp"
+            android:paddingTop="8.5dp"
+            android:text="ADD BANK ACCOUNT"
+            android:textColor="#FFF" />
+    </android.support.v7.widget.CardView>
+</RelativeLayout>

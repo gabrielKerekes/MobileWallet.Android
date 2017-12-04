@@ -1,0 +1,173 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".avengerstoken.RegActivity">
+
+    <include
+        android:id="@+id/app_bar"
+        layout="@layout/app_bar" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Username"
+        android:id="@+id/uname"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="#31535c"
+        android:layout_below="@+id/app_bar"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/unameTttttt"
+        android:layout_below="@+id/uname"
+        android:gravity="center_horizontal|center_vertical"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/edittext_style"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Password"
+        android:id="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="#31535c"
+        android:layout_below="@+id/unameTttttt" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/pwdT"
+        android:gravity="center_horizontal|center_vertical"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/textView2"
+        android:background="@drawable/edittext_style"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Repeat Password"
+        android:id="@+id/textView3"
+        android:layout_below="@+id/pwdT"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="#31535c" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:gravity="center_horizontal|center_vertical"
+        android:id="@+id/rep_pwdT"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/textView3"
+        android:background="@drawable/edittext_style"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Mail"
+        android:id="@+id/textView4"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="#31535c"
+        android:layout_below="@+id/rep_pwdT" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:id="@+id/mail"
+        android:gravity="center_horizontal|center_vertical"
+        android:layout_below="@+id/textView4"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:background="@drawable/edittext_style"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Repeat Mail"
+        android:id="@+id/textView5"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="#31535c"
+        android:layout_below="@+id/mail" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:id="@+id/repeatedMail"
+        android:gravity="center_horizontal|center_vertical"
+        android:layout_below="@+id/textView5"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:background="@drawable/edittext_style"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="PIN"
+        android:id="@+id/textView6"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="#31535c"
+        android:layout_below="@+id/repeatedMail" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:inputType="number"
+        android:maxLength="4"
+        android:ems="10"
+        android:id="@+id/pinT"
+        android:gravity="center_horizontal|center_vertical"
+        android:layout_below="@+id/textView6"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/edittext_style"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/password_hint"
+        android:id="@+id/passwordHint"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:textColor="#e62a2a"
+        android:layout_above="@+id/okbutt" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:text="OK"
+        android:id="@+id/okbutt"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/button_style"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

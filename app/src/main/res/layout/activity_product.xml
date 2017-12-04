@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_product"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.smartwallet.android.ProductActivity">
+
+    <include
+        android:id="@+id/app_bar"
+        layout="@layout/app_bar" />
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_below="@id/app_bar"
+        android:id="@+id/product_recycler_view"
+        android:scrollbars="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10.37"
+        xmlns:android="http://schemas.android.com/apk/res/android" />
+
+
+        <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/buyProductButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            card_view:cardBackgroundColor="@color/primaryColor"
+            card_view:cardCornerRadius="2dp"
+            card_view:cardElevation="6dp"
+            card_view:cardUseCompatPadding="true">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="43dp"
+                android:gravity="center"
+                android:paddingBottom="8.5dp"
+                android:layout_gravity="center"
+                android:paddingLeft="12dp"
+                android:paddingRight="12dp"
+                android:paddingTop="8.5dp"
+                android:text="BUY"
+                android:textColor="#FFF" />
+        </android.support.v7.widget.CardView>
+
+
+
+</LinearLayout>

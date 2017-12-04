@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="2dp"
+        card_view:cardCornerRadius="4dp">
+
+
+        <TextView
+            android:id="@+id/notificationStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textSize="18sp"
+            android:text="PENDING" />
+
+        <ImageView
+            android:id="@+id/notificationImage"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            android:src="@drawable/confirm_transaction" />
+
+        <ImageView
+            android:id="@+id/notificationArrow"
+            android:layout_width="46dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="end"
+            android:src="@drawable/right_arrow" />
+
+        <TextView
+            android:id="@+id/notificationDatePartOne"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:textSize="12sp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="50dp"
+            android:text="13.07.2016" />
+
+        <TextView
+            android:id="@+id/notificationDatePartTwo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:textSize="13sp"
+            android:layout_marginLeft="52dp"
+            android:text="10:37:54" />
+
+        <TextView
+            android:id="@+id/notificationAmount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginRight="50sp"
+            android:text="5 €"
+            android:textSize="18sp" />
+
+
+    </android.support.v7.widget.CardView>
+
+
+</LinearLayout>

@@ -1,0 +1,62 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context="com.smartwallet.android.avengerstoken.AvengersMainActivity">
+
+    <include
+        android:id="@+id/app_bar"
+        layout="@layout/app_bar" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Registration"
+        android:id="@+id/buttDevOnly"
+        android:onClick="startDeviceActivity"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/button_style"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/app_bar"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Go to Superwallet"
+        android:id="@+id/superwalletButton"
+        android:onClick="startOnlineTokenActivity"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/button_style"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/app_bar"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Set service IP"
+        android:id="@+id/setServiceIpButton"
+        android:onClick="startSetServiceIpActivity"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/button_style"
+        android:layout_marginBottom="15dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
+</RelativeLayout>

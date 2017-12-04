@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_payment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.smartwallet.android.BankAccountActivity">
+
+    <include
+        android:id="@+id/app_bar"
+        layout="@layout/app_bar" />
+
+    <LinearLayout
+        android:layout_below="@id/app_bar"
+        android:id="@+id/balanceLayout"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="15dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:id="@+id/accountNumberTitleText"
+            android:text="Account Number"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="100 €"
+            android:gravity="center"
+            android:textSize="17sp"
+            android:layout_below="@+id/accountNumberTitleText"
+            android:id="@+id/accountNumber"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:id="@+id/balanceTitleText"
+            android:text="Balance"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="100 €"
+            android:gravity="center"
+            android:textSize="17sp"
+            android:layout_below="@+id/balanceTitleText"
+            android:id="@+id/balanceText"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:text="Payment History"/>
+
+    </LinearLayout>
+
+
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_below="@id/balanceLayout"
+        android:id="@+id/paymant_recycler_view"
+        android:scrollbars="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android" />
+
+</RelativeLayout>
