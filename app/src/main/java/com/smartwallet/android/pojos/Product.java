@@ -1,4 +1,4 @@
-package com.smartwallet.android.pojos;
+package com.mobilewallet.android.pojos;
 
 /**
  * Created by ROCK LEE on 23.11.2016.

@@ -1,4 +1,4 @@
-package com.smartwallet.android;
+package com.mobilewallet.android;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -8,10 +8,10 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 
-import com.smartwallet.android.adapters.ViewPagerAdapter;
-import com.smartwallet.android.fragments.AvailableTopicsFragment;
-import com.smartwallet.android.fragments.SubscribedTopicsFragment;
-import com.smartwallet.android.ui.SlidingTabLayout;
+import com.mobilewallet.android.adapters.ViewPagerAdapter;
+import com.mobilewallet.android.fragments.AvailableTopicsFragment;
+import com.mobilewallet.android.fragments.SubscribedTopicsFragment;
+import com.mobilewallet.android.ui.SlidingTabLayout;
 
 public class TopicActivity extends AppCompatActivity {
 

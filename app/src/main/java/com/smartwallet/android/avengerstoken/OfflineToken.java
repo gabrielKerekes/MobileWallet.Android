@@ -1,4 +1,4 @@
-package com.smartwallet.android.avengerstoken;
+package com.mobilewallet.android.avengerstoken;
 
 
 import android.content.Context;
@@ -23,8 +23,8 @@ import java.io.OutputStreamWriter;
 import java.security.InvalidKeyException;
 import java.security.NoSuchAlgorithmException;
 
-import com.smartwallet.android.R;
-import com.smartwallet.android.ocrahotp.Hotp;
+import com.mobilewallet.android.R;
+import com.mobilewallet.android.ocrahotp.Hotp;
 
 
 public class OfflineToken extends AppCompatActivity {

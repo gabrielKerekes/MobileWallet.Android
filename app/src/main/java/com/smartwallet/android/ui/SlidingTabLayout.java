@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.smartwallet.android.ui;
+package com.mobilewallet.android.ui;
 
 import android.content.Context;
 import android.graphics.Typeface;

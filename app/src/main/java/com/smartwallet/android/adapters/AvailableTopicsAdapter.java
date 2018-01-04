@@ -1,4 +1,4 @@
-package com.smartwallet.android.adapters;
+package com.mobilewallet.android.adapters;
 
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
@@ -11,7 +11,7 @@ import android.widget.TextView;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.smartwallet.android.R;
+import com.mobilewallet.android.R;
 
 /**
  * Created by ROCK LEE on 5.12.2016.

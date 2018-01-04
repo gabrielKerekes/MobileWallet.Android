@@ -1,4 +1,4 @@
-package com.smartwallet.android.adapters;
+package com.mobilewallet.android.adapters;
 
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
@@ -8,8 +8,8 @@ import android.widget.TextView;
 
 import java.util.List;
 
-import com.smartwallet.android.R;
-import com.smartwallet.android.pojos.BoughtProduct;
+import com.mobilewallet.android.R;
+import com.mobilewallet.android.pojos.BoughtProduct;
 
 
 public class BoughtProductAdapter extends RecyclerView.Adapter<BoughtProductAdapter.ViewHolder> {

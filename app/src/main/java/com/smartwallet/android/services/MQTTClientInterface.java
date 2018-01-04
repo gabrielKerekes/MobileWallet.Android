@@ -1,4 +1,4 @@
-package com.smartwallet.android.services;
+package com.mobilewallet.android.services;
 
 import android.content.Context;
 

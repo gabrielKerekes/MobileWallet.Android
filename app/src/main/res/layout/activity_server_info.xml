@@ -5,7 +5,7 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.smartwallet.android.ServerInfoActivity">
+    tools:context="com.mobilewallet.android.ServerInfoActivity">
 
     <include
         android:id="@+id/app_bar"

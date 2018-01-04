@@ -1,4 +1,4 @@
-package com.smartwallet.android.avengerstoken;
+package com.mobilewallet.android.avengerstoken;
 
 import android.content.Context;
 import android.util.Base64;

@@ -1,4 +1,4 @@
-package com.smartwallet.android.avengerstoken.PinDialog;
+package com.mobilewallet.android.avengerstoken.PinDialog;
 
 import android.app.DialogFragment;
 import android.content.Context;
@@ -9,7 +9,7 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
 
-import com.smartwallet.android.R;
+import com.mobilewallet.android.R;
 
 /**
  * Created by GabrielK on 20-Feb-17.

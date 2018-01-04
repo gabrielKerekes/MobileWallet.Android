@@ -4,7 +4,7 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.smartwallet.android.fragments.SubscribedTopicsFragment">
+    tools:context="com.mobilewallet.android.fragments.SubscribedTopicsFragment">
 
     <android.support.v7.widget.RecyclerView
         android:id="@+id/topic_recycler_view"

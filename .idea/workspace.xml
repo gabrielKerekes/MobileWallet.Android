@@ -10,65 +10,146 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f0c8739b-c752-4ac4-b281-71d85330f3dc" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/timak/android/AddingBankActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/timak/android/BankAccountActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/timak/android/BoughtProductsActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/timak/android/NotificationListActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/timak/android/ProductActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/timak/android/ServerInfoActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/timak/android/SplashScreenActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/timak/android/SuperwalletMainActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/timak/android/TopicActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/timak/android/adapters/AvailableTopicsAdapter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/timak/android/adapters/BoughtProductAdapter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/timak/android/adapters/NotificationAdapter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/timak/android/adapters/PaymentAdapter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/timak/android/adapters/ProductAdapter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/timak/android/adapters/SubscribedTopicsAdapter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/timak/android/adapters/ViewPagerAdapter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/timak/android/avengerstoken/AvengersMainActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/timak/android/avengerstoken/ConfirmIdentityActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/timak/android/avengerstoken/ConfirmTransactionActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/timak/android/avengerstoken/FileManager.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/timak/android/avengerstoken/GcmBroadcastReceiver.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/timak/android/avengerstoken/GcmIntentService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/timak/android/avengerstoken/Globals.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/timak/android/avengerstoken/GridCard.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/timak/android/avengerstoken/OfflineToken.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/timak/android/avengerstoken/PasswordWrite.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/timak/android/avengerstoken/PinDialog/PinDialogFragment.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/timak/android/avengerstoken/PinDialog/PinDialogResultListener.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/timak/android/avengerstoken/RegActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/timak/android/avengerstoken/SetServiceIpActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/timak/android/enums/NotificationStatus.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/timak/android/enums/NotificationType.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/timak/android/fragments/AvailableTopicsFragment.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/timak/android/fragments/SubscribedTopicsFragment.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/timak/android/http/ServiceRequest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/timak/android/http/ServiceRequestListener.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/timak/android/ocrahotp/Hotp.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/timak/android/ocrahotp/HotpCounter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/timak/android/ocrahotp/Ocra.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/timak/android/ocrahotp/OcraHotp.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/timak/android/pojos/BoughtProduct.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/timak/android/pojos/Notification.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/timak/android/pojos/Payment.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/timak/android/pojos/Product.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/timak/android/services/ClientManager.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/timak/android/services/MQTTClientInterface.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/timak/android/services/SharedPreferencesHelper.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/timak/android/services/ToastMaker.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/timak/android/ui/SlidingTabLayout.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/timak/android/ui/SlidingTabStrip.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/timak/android/utils/ServiceIp.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/timak/android/utils/UserManagement.java" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/androidTest/java/timak/superwallet/ExampleInstrumentedTest.java" afterPath="$PROJECT_DIR$/app/src/androidTest/java/timak/android/ExampleInstrumentedTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/test/java/timak/superwallet/ExampleUnitTest.java" afterPath="$PROJECT_DIR$/app/src/test/java/timak/android/ExampleUnitTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.gitignore" afterPath="$PROJECT_DIR$/app/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build.gradle" afterPath="$PROJECT_DIR$/app/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/proguard-rules.pro" afterPath="$PROJECT_DIR$/app/proguard-rules.pro" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SmartWallet.Android.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-11-29-17-53-38-892.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-11-29-17-53-59-836.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-11-29-17-56-30-111.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-11-29-17-56-51-106.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-11-29-18-01-09-753.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-11-29-18-01-25-931.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-11-29-18-06-05-995.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-11-29-18-06-21-844.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-11-29-18-09-28-001.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-11-29-18-12-11-009.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-11-29-18-12-28-325.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-11-29-18-15-18-658.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-11-29-18-15-41-402.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-11-29-18-18-20-293.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-11-29-18-18-42-529.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-11-29-18-19-23-746.rawproto" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/android-profile/profile-2017-11-29-18-22-43-813.rawproto" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/android_android_24.xml" afterPath="$PROJECT_DIR$/.idea/libraries/android_android_24.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/animated_vector_drawable_24_2_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/animated_vector_drawable_24_2_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/appcompat_v7_24_2_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/appcompat_v7_24_2_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/cardview_v7_24_2_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/cardview_v7_24_2_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/constraint_layout_1_0_0_alpha8.xml" afterPath="$PROJECT_DIR$/.idea/libraries/constraint_layout_1_0_0_alpha8.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/constraint_layout_solver_1_0_0_alpha8.xml" afterPath="$PROJECT_DIR$/.idea/libraries/constraint_layout_solver_1_0_0_alpha8.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/espresso_core_2_2_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/espresso_core_2_2_2.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/espresso_idling_resource_2_2_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/espresso_idling_resource_2_2_2.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/exposed_instrumentation_api_publish_0_5.xml" afterPath="$PROJECT_DIR$/.idea/libraries/exposed_instrumentation_api_publish_0_5.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/gson_2_8_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/gson_2_8_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/hamcrest_core_1_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/hamcrest_core_1_3.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/hamcrest_integration_1_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/hamcrest_integration_1_3.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/hamcrest_library_1_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/hamcrest_library_1_3.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/javawriter_2_1_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/javawriter_2_1_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/javax_annotation_api_1_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/javax_annotation_api_1_2.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/javax_inject_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/javax_inject_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/jsr305_2_0_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/jsr305_2_0_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/junit_4_12.xml" afterPath="$PROJECT_DIR$/.idea/libraries/junit_4_12.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/mediarouter_v7_23_0_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/mediarouter_v7_23_0_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/org_eclipse_paho_android_service_1_1_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/org_eclipse_paho_android_service_1_1_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/org_eclipse_paho_client_mqttv3_1_1_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/org_eclipse_paho_client_mqttv3_1_1_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_8_4_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_8_4_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_ads_8_4_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_ads_8_4_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_analytics_8_4_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_analytics_8_4_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_appindexing_8_4_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_appindexing_8_4_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_appinvite_8_4_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_appinvite_8_4_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_appstate_8_4_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_appstate_8_4_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_auth_8_4_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_auth_8_4_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_base_8_4_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_base_8_4_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_basement_8_4_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_basement_8_4_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_cast_8_4_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_cast_8_4_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_drive_8_4_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_drive_8_4_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_fitness_8_4_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_fitness_8_4_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_games_8_4_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_games_8_4_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_gcm_8_4_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_gcm_8_4_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_identity_8_4_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_identity_8_4_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_location_8_4_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_location_8_4_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_maps_8_4_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_maps_8_4_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_measurement_8_4_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_measurement_8_4_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_nearby_8_4_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_nearby_8_4_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_panorama_8_4_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_panorama_8_4_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_plus_8_4_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_plus_8_4_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_safetynet_8_4_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_safetynet_8_4_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_vision_8_4_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_vision_8_4_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_wallet_8_4_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_wallet_8_4_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_wearable_8_4_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/play_services_wearable_8_4_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/recyclerview_v7_24_2_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/recyclerview_v7_24_2_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/rules_0_5.xml" afterPath="$PROJECT_DIR$/.idea/libraries/rules_0_5.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/runner_0_5.xml" afterPath="$PROJECT_DIR$/.idea/libraries/runner_0_5.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/support_annotations_24_2_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/support_annotations_24_2_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/support_compat_24_2_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/support_compat_24_2_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/support_core_ui_24_2_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/support_core_ui_24_2_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/support_core_utils_24_2_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/support_core_utils_24_2_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/support_fragment_24_2_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/support_fragment_24_2_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/support_media_compat_24_2_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/support_media_compat_24_2_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/support_v4_24_2_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/support_v4_24_2_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/support_vector_drawable_24_2_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/support_vector_drawable_24_2_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/androidTest/java/timak/android/ExampleInstrumentedTest.java" afterPath="$PROJECT_DIR$/app/src/androidTest/java/timak/android/ExampleInstrumentedTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/smartwallet/android/AddingBankActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/smartwallet/android/AddingBankActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/smartwallet/android/BankAccountActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/smartwallet/android/BankAccountActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/smartwallet/android/BoughtProductsActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/smartwallet/android/BoughtProductsActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/smartwallet/android/NotificationListActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/smartwallet/android/NotificationListActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/smartwallet/android/ProductActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/smartwallet/android/ProductActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/smartwallet/android/ServerInfoActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/smartwallet/android/ServerInfoActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/smartwallet/android/SplashScreenActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/smartwallet/android/SplashScreenActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/smartwallet/android/SuperwalletMainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/smartwallet/android/SuperwalletMainActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/smartwallet/android/TopicActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/smartwallet/android/TopicActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/smartwallet/android/adapters/AvailableTopicsAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/smartwallet/android/adapters/AvailableTopicsAdapter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/smartwallet/android/adapters/BoughtProductAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/smartwallet/android/adapters/BoughtProductAdapter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/smartwallet/android/adapters/NotificationAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/smartwallet/android/adapters/NotificationAdapter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/smartwallet/android/adapters/PaymentAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/smartwallet/android/adapters/PaymentAdapter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/smartwallet/android/adapters/ProductAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/smartwallet/android/adapters/ProductAdapter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/smartwallet/android/adapters/SubscribedTopicsAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/smartwallet/android/adapters/SubscribedTopicsAdapter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/smartwallet/android/adapters/ViewPagerAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/smartwallet/android/adapters/ViewPagerAdapter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/smartwallet/android/avengerstoken/AvengersMainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/smartwallet/android/avengerstoken/AvengersMainActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/smartwallet/android/avengerstoken/ConfirmIdentityActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/smartwallet/android/avengerstoken/ConfirmIdentityActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/smartwallet/android/avengerstoken/ConfirmTransactionActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/smartwallet/android/avengerstoken/ConfirmTransactionActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/smartwallet/android/avengerstoken/FileManager.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/smartwallet/android/avengerstoken/FileManager.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/smartwallet/android/avengerstoken/GcmBroadcastReceiver.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/smartwallet/android/avengerstoken/GcmBroadcastReceiver.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/smartwallet/android/avengerstoken/GcmIntentService.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/smartwallet/android/avengerstoken/GcmIntentService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/smartwallet/android/avengerstoken/Globals.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/smartwallet/android/avengerstoken/Globals.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/smartwallet/android/avengerstoken/GridCard.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/smartwallet/android/avengerstoken/GridCard.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/smartwallet/android/avengerstoken/OfflineToken.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/smartwallet/android/avengerstoken/OfflineToken.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/smartwallet/android/avengerstoken/PasswordWrite.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/smartwallet/android/avengerstoken/PasswordWrite.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/smartwallet/android/avengerstoken/PinDialog/PinDialogFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/smartwallet/android/avengerstoken/PinDialog/PinDialogFragment.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/smartwallet/android/avengerstoken/PinDialog/PinDialogResultListener.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/smartwallet/android/avengerstoken/PinDialog/PinDialogResultListener.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/smartwallet/android/avengerstoken/RegActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/smartwallet/android/avengerstoken/RegActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/smartwallet/android/avengerstoken/SetServiceIpActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/smartwallet/android/avengerstoken/SetServiceIpActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/smartwallet/android/enums/NotificationStatus.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/smartwallet/android/enums/NotificationStatus.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/smartwallet/android/enums/NotificationType.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/smartwallet/android/enums/NotificationType.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/smartwallet/android/fragments/AvailableTopicsFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/smartwallet/android/fragments/AvailableTopicsFragment.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/smartwallet/android/fragments/SubscribedTopicsFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/smartwallet/android/fragments/SubscribedTopicsFragment.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/smartwallet/android/http/ServiceRequest.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/smartwallet/android/http/ServiceRequest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/smartwallet/android/http/ServiceRequestListener.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/smartwallet/android/http/ServiceRequestListener.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/smartwallet/android/ocrahotp/Hotp.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/smartwallet/android/ocrahotp/Hotp.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/smartwallet/android/ocrahotp/HotpCounter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/smartwallet/android/ocrahotp/HotpCounter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/smartwallet/android/ocrahotp/Ocra.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/smartwallet/android/ocrahotp/Ocra.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/smartwallet/android/ocrahotp/OcraHotp.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/smartwallet/android/ocrahotp/OcraHotp.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/smartwallet/android/pojos/BoughtProduct.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/smartwallet/android/pojos/BoughtProduct.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/smartwallet/android/pojos/Notification.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/smartwallet/android/pojos/Notification.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/smartwallet/android/pojos/Payment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/smartwallet/android/pojos/Payment.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/smartwallet/android/pojos/Product.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/smartwallet/android/pojos/Product.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/smartwallet/android/services/ClientManager.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/smartwallet/android/services/ClientManager.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/smartwallet/android/services/MQTTClientInterface.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/smartwallet/android/services/MQTTClientInterface.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/smartwallet/android/services/SharedPreferencesHelper.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/smartwallet/android/services/SharedPreferencesHelper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/smartwallet/android/services/ToastMaker.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/smartwallet/android/services/ToastMaker.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/smartwallet/android/ui/SlidingTabLayout.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/smartwallet/android/ui/SlidingTabLayout.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/smartwallet/android/ui/SlidingTabStrip.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/smartwallet/android/ui/SlidingTabStrip.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/smartwallet/android/utils/ServiceIp.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/smartwallet/android/utils/ServiceIp.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/smartwallet/android/utils/UserManagement.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/smartwallet/android/utils/UserManagement.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/selector_state.xml" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/selector_state.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/button_style.xml" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/button_style.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable/basket.xml" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/basket.xml" />
@@ -119,14 +200,9 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/dimens.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/dimens.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gradle.properties" afterPath="$PROJECT_DIR$/gradle.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gradlew" afterPath="$PROJECT_DIR$/gradlew" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gradlew.bat" afterPath="$PROJECT_DIR$/gradlew.bat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/settings.gradle" afterPath="$PROJECT_DIR$/settings.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/test/java/timak/android/ExampleUnitTest.java" afterPath="$PROJECT_DIR$/app/src/test/java/timak/android/ExampleUnitTest.java" />
     </list>
-    <ignored path="SmartWallet.Android.iws" />
+    <ignored path="MobileWallet.Android.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -152,27 +228,20 @@
     </system>
   </component>
   <component name="FavoritesManager">
-    <favorites_list name="SmartWallet.Android" />
+    <favorites_list name="MobileWallet.Android" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-          <provider editor-type-id="android-manifest">
-            <state />
-          </provider>
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
               <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
-              <folding>
-                <element signature="e#2338#2377#0" expanded="true" />
-                <element signature="e#3945#3973#0" expanded="true" />
-                <element signature="e#4113#4157#0" expanded="true" />
-                <element signature="e#4279#4297#0" expanded="true" />
-                <element signature="e#4424#4442#0" expanded="true" />
-                <element signature="e#4568#4606#0" expanded="true" />
-              </folding>
+              <folding />
             </state>
+          </provider>
+          <provider editor-type-id="android-manifest">
+            <state />
           </provider>
         </entry>
       </file>
@@ -197,14 +266,14 @@
         <entry>
           <key>
             <ExternalProjectPojo>
-              <option name="name" value="SmartWallet.Android" />
+              <option name="name" value="MobileWallet.Android" />
               <option name="path" value="$PROJECT_DIR$" />
             </ExternalProjectPojo>
           </key>
           <value>
             <list>
               <ExternalProjectPojo>
-                <option name="name" value="SmartWallet.Android" />
+                <option name="name" value="MobileWallet.Android" />
                 <option name="path" value="$PROJECT_DIR$" />
               </ExternalProjectPojo>
               <ExternalProjectPojo>
@@ -222,7 +291,7 @@
           <value>
             <list>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the sub-projects of root project 'SmartWallet.Android'." />
+                <option name="description" value="Displays the sub-projects of root project 'MobileWallet.Android'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="projects" />
               </ExternalTaskPojo>
@@ -312,7 +381,7 @@
                 <option name="name" value="compileDebugAndroidTestJavaWithJavac" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the components produced by root project 'SmartWallet.Android'. [incubating]" />
+                <option name="description" value="Displays the components produced by root project 'MobileWallet.Android'. [incubating]" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="components" />
               </ExternalTaskPojo>
@@ -626,12 +695,12 @@
                 <option name="name" value="generateDebugAssets" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the dependent components of components in root project 'SmartWallet.Android'. [incubating]" />
+                <option name="description" value="Displays the dependent components of components in root project 'MobileWallet.Android'. [incubating]" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="dependentComponents" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays all buildscript dependencies declared in root project 'SmartWallet.Android'." />
+                <option name="description" value="Displays all buildscript dependencies declared in root project 'MobileWallet.Android'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="buildEnvironment" />
               </ExternalTaskPojo>
@@ -745,12 +814,12 @@
                 <option name="name" value="lintDebug" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the configuration model of root project 'SmartWallet.Android'. [incubating]" />
+                <option name="description" value="Displays the configuration model of root project 'MobileWallet.Android'. [incubating]" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="model" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the tasks runnable from root project 'SmartWallet.Android' (some of the displayed tasks may belong to subprojects)." />
+                <option name="description" value="Displays the tasks runnable from root project 'MobileWallet.Android' (some of the displayed tasks may belong to subprojects)." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="tasks" />
               </ExternalTaskPojo>
@@ -764,7 +833,7 @@
                 <option name="name" value="incrementalDebugJavaCompilationSafeguard" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays all dependencies declared in root project 'SmartWallet.Android'." />
+                <option name="description" value="Displays all dependencies declared in root project 'MobileWallet.Android'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="dependencies" />
               </ExternalTaskPojo>
@@ -839,7 +908,7 @@
                 <option name="name" value="prepareReleaseDependencies" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the insight into a specific dependency in root project 'SmartWallet.Android'." />
+                <option name="description" value="Displays the insight into a specific dependency in root project 'MobileWallet.Android'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="dependencyInsight" />
               </ExternalTaskPojo>
@@ -1075,7 +1144,7 @@
                 <option name="name" value="packageDebugAndroidTest" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the properties of root project 'SmartWallet.Android'." />
+                <option name="description" value="Displays the properties of root project 'MobileWallet.Android'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="properties" />
               </ExternalTaskPojo>
@@ -1941,7 +2010,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="C:\Users\GabrielK\skola\dp\appky\SmartWallet.Android" value="4535918198073" />
+        <entry key="C:\Users\GabrielK\skola\dp\appky\MobileWallet.Android" value="4535918198073" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -2147,7 +2216,7 @@
                   </entry>
                 </map>
               </option>
-              <option name="name" value="SmartWallet.Android" />
+              <option name="name" value="MobileWallet.Android" />
               <option name="projectBuildClasspath">
                 <list>
                   <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.3-all/55gk2rcmfc6p2dg9u9ohc3hw9/gradle-3.3/src/announce" />
@@ -2341,71 +2410,15 @@
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="SmartWallet.Android" />
+              <option name="myItemId" value="MobileWallet.Android" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SmartWallet.Android" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SmartWallet.Android" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SmartWallet.Android" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="android" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SmartWallet.Android" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="manifests" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidManifestsGroupNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -2413,7 +2426,7 @@
     <property name="settings.editor.selected.configurable" value="android.sdk-updates" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="device.picker.selection" value="192.168.6.101:5555" />
+    <property name="device.picker.selection" value="Nexus_4_API_24" />
   </component>
   <component name="RunManager" selected="Android App.app">
     <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
@@ -2626,7 +2639,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -2641,8 +2654,7 @@
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18017058" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18017058" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
@@ -2655,6 +2667,7 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -2673,47 +2686,27 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/smarwallet/android/AddingBankActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/smarwallet/android/http/ServiceRequest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/smarwallet/android/AddingBankActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/smarwallet/android/http/ServiceRequest.java" />
     <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-      <provider editor-type-id="android-manifest">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
-          <folding>
-            <element signature="e#2338#2377#0" expanded="true" />
-            <element signature="e#3945#3973#0" expanded="true" />
-            <element signature="e#4113#4157#0" expanded="true" />
-            <element signature="e#4279#4297#0" expanded="true" />
-            <element signature="e#4424#4442#0" expanded="true" />
-            <element signature="e#4568#4606#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/smarwallet/android/AddingBankActivity.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/smarwallet/android/http/ServiceRequest.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/smarwallet/android/AddingBankActivity.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/smarwallet/android/http/ServiceRequest.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-manifest">
+        <state />
       </provider>
     </entry>
   </component>

@@ -1,4 +1,4 @@
-package com.smartwallet.android.avengerstoken;
+package com.mobilewallet.android.avengerstoken;
 
 import android.app.FragmentTransaction;
 import android.content.Context;
@@ -28,18 +28,18 @@ import java.util.Map;
 import javax.net.ssl.HostnameVerifier;
 import javax.net.ssl.SSLSession;
 
-import com.smartwallet.android.R;
-import com.smartwallet.android.avengerstoken.PinDialog.PinDialogFragment;
-import com.smartwallet.android.avengerstoken.PinDialog.PinDialogResultListener;
-import com.smartwallet.android.enums.NotificationStatus;
-import com.smartwallet.android.http.ServiceRequest;
-import com.smartwallet.android.http.ServiceRequestListener;
-import com.smartwallet.android.ocrahotp.Hotp;
-import com.smartwallet.android.ocrahotp.HotpCounter;
-import com.smartwallet.android.ocrahotp.Ocra;
-import com.smartwallet.android.pojos.Notification;
-import com.smartwallet.android.services.SharedPreferencesHelper;
-import com.smartwallet.android.utils.UserManagement;
+import com.mobilewallet.android.R;
+import com.mobilewallet.android.avengerstoken.PinDialog.PinDialogFragment;
+import com.mobilewallet.android.avengerstoken.PinDialog.PinDialogResultListener;
+import com.mobilewallet.android.enums.NotificationStatus;
+import com.mobilewallet.android.http.ServiceRequest;
+import com.mobilewallet.android.http.ServiceRequestListener;
+import com.mobilewallet.android.ocrahotp.Hotp;
+import com.mobilewallet.android.ocrahotp.HotpCounter;
+import com.mobilewallet.android.ocrahotp.Ocra;
+import com.mobilewallet.android.pojos.Notification;
+import com.mobilewallet.android.services.SharedPreferencesHelper;
+import com.mobilewallet.android.utils.UserManagement;
 
 public class ConfirmTransactionActivity extends AppCompatActivity implements PinDialogResultListener, ServiceRequestListener {
     private final String ConfirmedString = "CONFIRMED";

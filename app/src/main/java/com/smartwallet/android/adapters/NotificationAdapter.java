@@ -1,4 +1,4 @@
-package com.smartwallet.android.adapters;
+package com.mobilewallet.android.adapters;
 
 import android.content.Context;
 import android.content.Intent;
@@ -10,12 +10,12 @@ import android.widget.TextView;
 
 import java.util.List;
 
-import com.smartwallet.android.R;
-import com.smartwallet.android.avengerstoken.ConfirmIdentityActivity;
-import com.smartwallet.android.avengerstoken.ConfirmTransactionActivity;
-import com.smartwallet.android.enums.NotificationType;
-import com.smartwallet.android.pojos.Notification;
-import com.smartwallet.android.services.MQTTClientInterface;
+import com.mobilewallet.android.R;
+import com.mobilewallet.android.avengerstoken.ConfirmIdentityActivity;
+import com.mobilewallet.android.avengerstoken.ConfirmTransactionActivity;
+import com.mobilewallet.android.enums.NotificationType;
+import com.mobilewallet.android.pojos.Notification;
+import com.mobilewallet.android.services.MQTTClientInterface;
 
 /**
  * Created by JakubJ on 7.3.2017.

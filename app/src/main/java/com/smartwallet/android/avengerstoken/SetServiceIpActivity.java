@@ -1,4 +1,4 @@
-package com.smartwallet.android.avengerstoken;
+package com.mobilewallet.android.avengerstoken;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -7,8 +7,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
-import com.smartwallet.android.R;
-import com.smartwallet.android.utils.ServiceIp;
+import com.mobilewallet.android.R;
+import com.mobilewallet.android.utils.ServiceIp;
 
 public class SetServiceIpActivity extends AppCompatActivity
 {

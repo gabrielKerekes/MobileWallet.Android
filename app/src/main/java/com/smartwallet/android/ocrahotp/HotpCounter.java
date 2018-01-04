@@ -1,4 +1,4 @@
-package com.smartwallet.android.ocrahotp;
+package com.mobilewallet.android.ocrahotp;
 
 import android.content.Context;
 import android.content.SharedPreferences;

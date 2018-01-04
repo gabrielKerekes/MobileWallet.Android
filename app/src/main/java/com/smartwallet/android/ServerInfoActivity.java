@@ -1,4 +1,4 @@
-package com.smartwallet.android;
+package com.mobilewallet.android;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -11,7 +11,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ToggleButton;
 
-import com.smartwallet.android.services.ClientManager;
+import com.mobilewallet.android.services.ClientManager;
 
 public class ServerInfoActivity extends AppCompatActivity {
 

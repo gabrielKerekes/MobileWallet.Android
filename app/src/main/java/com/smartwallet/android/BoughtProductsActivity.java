@@ -1,4 +1,4 @@
-package com.smartwallet.android;
+package com.mobilewallet.android;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -9,8 +9,8 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 
-import com.smartwallet.android.adapters.BoughtProductAdapter;
-import com.smartwallet.android.services.ClientManager;
+import com.mobilewallet.android.adapters.BoughtProductAdapter;
+import com.mobilewallet.android.services.ClientManager;
 
 public class BoughtProductsActivity extends AppCompatActivity {
 

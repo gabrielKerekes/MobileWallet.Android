@@ -1,4 +1,4 @@
-package com.smartwallet.android.utils;
+package com.mobilewallet.android.utils;
 
 import android.content.Context;
 import android.content.SharedPreferences;

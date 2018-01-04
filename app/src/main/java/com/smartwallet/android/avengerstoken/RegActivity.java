@@ -1,4 +1,4 @@
-package com.smartwallet.android.avengerstoken;
+package com.mobilewallet.android.avengerstoken;
 
 import android.content.Context;
 import android.content.Intent;
@@ -36,10 +36,10 @@ import javax.net.ssl.SSLSession;
 import javax.net.ssl.TrustManager;
 import javax.net.ssl.X509TrustManager;
 
-import com.smartwallet.android.R;
-import com.smartwallet.android.SplashScreenActivity;
-import com.smartwallet.android.services.ToastMaker;
-import com.smartwallet.android.utils.ServiceIp;
+import com.mobilewallet.android.R;
+import com.mobilewallet.android.SplashScreenActivity;
+import com.mobilewallet.android.services.ToastMaker;
+import com.mobilewallet.android.utils.ServiceIp;
 
 public class RegActivity extends AppCompatActivity {
 

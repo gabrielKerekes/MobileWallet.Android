@@ -1,4 +1,4 @@
-package com.smartwallet.android;
+package com.mobilewallet.android;
 
 import android.content.Context;
 import android.content.Intent;
@@ -9,8 +9,8 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 
-import com.smartwallet.android.avengerstoken.AvengersMainActivity;
-import com.smartwallet.android.services.ClientManager;
+import com.mobilewallet.android.avengerstoken.AvengersMainActivity;
+import com.mobilewallet.android.services.ClientManager;
 
 
 public class SuperwalletMainActivity extends AppCompatActivity {

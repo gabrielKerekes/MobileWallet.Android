@@ -1,4 +1,4 @@
-package com.smartwallet.android;
+package com.mobilewallet.android;
 
 import org.junit.Test;
 

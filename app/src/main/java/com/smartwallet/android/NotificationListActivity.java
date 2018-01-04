@@ -1,4 +1,4 @@
-package com.smartwallet.android;
+package com.mobilewallet.android;
 
 import android.content.DialogInterface;
 import android.content.Intent;
@@ -12,8 +12,8 @@ import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
 import android.view.View;
 
-import com.smartwallet.android.adapters.NotificationAdapter;
-import com.smartwallet.android.services.SharedPreferencesHelper;
+import com.mobilewallet.android.adapters.NotificationAdapter;
+import com.mobilewallet.android.services.SharedPreferencesHelper;
 
 public class NotificationListActivity extends AppCompatActivity {
 

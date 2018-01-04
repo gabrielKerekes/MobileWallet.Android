@@ -1,4 +1,4 @@
-package com.smartwallet.android.avengerstoken;
+package com.mobilewallet.android.avengerstoken;
 
 import android.content.Context;
 import android.content.Intent;
@@ -14,7 +14,7 @@ import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.smartwallet.android.R;
+import com.mobilewallet.android.R;
 
 
 public class GridCard extends AppCompatActivity {

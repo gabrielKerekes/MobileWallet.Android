@@ -1,4 +1,4 @@
-package com.smartwallet.android.services;
+package com.mobilewallet.android.services;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -12,9 +12,9 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.Set;
 
-import com.smartwallet.android.enums.NotificationStatus;
-import com.smartwallet.android.enums.NotificationType;
-import com.smartwallet.android.pojos.Notification;
+import com.mobilewallet.android.enums.NotificationStatus;
+import com.mobilewallet.android.enums.NotificationType;
+import com.mobilewallet.android.pojos.Notification;
 
 /**
  * Created by JakubJ on 16.3.2017.

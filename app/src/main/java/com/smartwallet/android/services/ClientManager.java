@@ -1,4 +1,4 @@
-package com.smartwallet.android.services;
+package com.mobilewallet.android.services;
 
 import android.content.Context;
 import android.util.Log;
@@ -22,12 +22,12 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import com.smartwallet.android.ProductActivity;
-import com.smartwallet.android.pojos.BoughtProduct;
-import com.smartwallet.android.pojos.Payment;
-import com.smartwallet.android.pojos.Product;
+import com.mobilewallet.android.ProductActivity;
+import com.mobilewallet.android.pojos.BoughtProduct;
+import com.mobilewallet.android.pojos.Payment;
+import com.mobilewallet.android.pojos.Product;
 
-import static com.smartwallet.android.services.ToastMaker.makeToast;
+import static com.mobilewallet.android.services.ToastMaker.makeToast;
 
 /**
  * Created by ROCK LEE on 30.12.2016.

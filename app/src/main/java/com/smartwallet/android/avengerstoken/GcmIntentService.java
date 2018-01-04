@@ -1,4 +1,4 @@
-package com.smartwallet.android.avengerstoken;
+package com.mobilewallet.android.avengerstoken;
 
 import android.app.IntentService;
 import android.app.NotificationManager;
@@ -14,10 +14,10 @@ import android.util.Log;
 
 import com.google.android.gms.gcm.GoogleCloudMessaging;
 
-import com.smartwallet.android.R;
-import com.smartwallet.android.enums.NotificationStatus;
-import com.smartwallet.android.pojos.Notification;
-import com.smartwallet.android.services.SharedPreferencesHelper;
+import com.mobilewallet.android.R;
+import com.mobilewallet.android.enums.NotificationStatus;
+import com.mobilewallet.android.pojos.Notification;
+import com.mobilewallet.android.services.SharedPreferencesHelper;
 
 public class GcmIntentService extends IntentService {
     public static final int NOTIFICATION_ID = 1;

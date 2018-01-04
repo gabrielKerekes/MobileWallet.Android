@@ -1,4 +1,4 @@
-package com.smartwallet.android.avengerstoken;
+package com.mobilewallet.android.avengerstoken;
 
 import android.content.Context;
 import android.content.Intent;
@@ -14,9 +14,9 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
-import com.smartwallet.android.R;
-import com.smartwallet.android.SuperwalletMainActivity;
-import com.smartwallet.android.utils.UserManagement;
+import com.mobilewallet.android.R;
+import com.mobilewallet.android.SuperwalletMainActivity;
+import com.mobilewallet.android.utils.UserManagement;
 
 
 public class AvengersMainActivity extends AppCompatActivity{

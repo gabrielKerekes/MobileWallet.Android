@@ -1,4 +1,4 @@
-package com.smartwallet.android.ocrahotp;
+package com.mobilewallet.android.ocrahotp;
 
 import javax.crypto.Mac;
 import javax.crypto.spec.SecretKeySpec;

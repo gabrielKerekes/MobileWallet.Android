@@ -1,4 +1,4 @@
-package com.smartwallet.android;
+package com.mobilewallet.android;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

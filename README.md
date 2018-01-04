@@ -1,2 +1,2 @@
-# SmartWallet.Android
-SmartWallet Android app repository
+# MobileWallet.Android
+MobileWallet Android app repository

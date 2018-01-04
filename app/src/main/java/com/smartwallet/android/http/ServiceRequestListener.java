@@ -1,4 +1,4 @@
-package com.smartwallet.android.http;
+package com.mobilewallet.android.http;
 
 /**
  * Created by GabrielK on 17-Apr-17.

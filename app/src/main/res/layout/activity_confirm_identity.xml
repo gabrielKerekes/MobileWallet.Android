@@ -5,7 +5,7 @@
     android:id="@+id/activity_confirm_identity"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.smartwallet.android.avengerstoken.ConfirmIdentityActivity">
+    tools:context="com.mobilewallet.android.avengerstoken.ConfirmIdentityActivity">
 
     <include
         android:id="@+id/app_bar"

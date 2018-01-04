@@ -1,4 +1,4 @@
-package com.smartwallet.android;
+package com.mobilewallet.android;
 
 import android.app.NotificationManager;
 import android.app.PendingIntent;
@@ -25,15 +25,15 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-import com.smartwallet.android.adapters.ProductAdapter;
-import com.smartwallet.android.pojos.Product;
-import com.smartwallet.android.services.ClientManager;
-import com.smartwallet.android.services.ToastMaker;
+import com.mobilewallet.android.adapters.ProductAdapter;
+import com.mobilewallet.android.pojos.Product;
+import com.mobilewallet.android.services.ClientManager;
+import com.mobilewallet.android.services.ToastMaker;
 
-import static com.smartwallet.android.services.MQTTClientInterface.BUY_TOPIC_REQUEST;
-import static com.smartwallet.android.services.MQTTClientInterface.BUY_TOPIC_RESPONSE;
-import static com.smartwallet.android.services.MQTTClientInterface.MULTIPLE_BUY_TOPIC_REQUEST;
-import static com.smartwallet.android.services.MQTTClientInterface.MULTIPLE_BUY_TOPIC_RESPONSE;
+import static com.mobilewallet.android.services.MQTTClientInterface.BUY_TOPIC_REQUEST;
+import static com.mobilewallet.android.services.MQTTClientInterface.BUY_TOPIC_RESPONSE;
+import static com.mobilewallet.android.services.MQTTClientInterface.MULTIPLE_BUY_TOPIC_REQUEST;
+import static com.mobilewallet.android.services.MQTTClientInterface.MULTIPLE_BUY_TOPIC_RESPONSE;
 
 public class ProductActivity extends AppCompatActivity {
 

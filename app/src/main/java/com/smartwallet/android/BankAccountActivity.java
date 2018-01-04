@@ -1,4 +1,4 @@
-package com.smartwallet.android;
+package com.mobilewallet.android;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -10,10 +10,10 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.TextView;
 
-import com.smartwallet.android.adapters.PaymentAdapter;
-import com.smartwallet.android.services.ClientManager;
+import com.mobilewallet.android.adapters.PaymentAdapter;
+import com.mobilewallet.android.services.ClientManager;
 
-import static com.smartwallet.android.R.id.balanceText;
+import static com.mobilewallet.android.R.id.balanceText;
 
 public class BankAccountActivity extends AppCompatActivity {
 

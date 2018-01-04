@@ -2,7 +2,7 @@
     xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/bg"
-    tools:context="com.smartwallet.android.avengerstoken.OfflineToken">
+    tools:context="com.mobilewallet.android.avengerstoken.OfflineToken">
 
     <include
         android:id="@+id/app_bar"

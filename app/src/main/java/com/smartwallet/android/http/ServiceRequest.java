@@ -1,4 +1,4 @@
-package com.smartwallet.android.http;
+package com.mobilewallet.android.http;
 
 import android.content.Context;
 import android.os.AsyncTask;
@@ -24,7 +24,7 @@ import javax.net.ssl.SSLSession;
 import javax.net.ssl.TrustManager;
 import javax.net.ssl.X509TrustManager;
 
-import com.smartwallet.android.utils.ServiceIp;
+import com.mobilewallet.android.utils.ServiceIp;
 
 /**
  * Created by GabrielK on 22-Feb-17.

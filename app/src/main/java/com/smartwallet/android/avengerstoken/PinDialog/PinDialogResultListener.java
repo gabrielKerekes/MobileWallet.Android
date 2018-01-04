@@ -1,4 +1,4 @@
-package com.smartwallet.android.avengerstoken.PinDialog;
+package com.mobilewallet.android.avengerstoken.PinDialog;
 
 /**
  * Created by GabrielK on 20-Feb-17.

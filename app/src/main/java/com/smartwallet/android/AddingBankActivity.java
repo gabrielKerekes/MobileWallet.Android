@@ -1,4 +1,4 @@
-package com.smartwallet.android;
+package com.mobilewallet.android;
 
 import android.content.Context;
 import android.content.Intent;
@@ -17,10 +17,10 @@ import org.json.JSONObject;
 import java.util.HashMap;
 import java.util.Map;
 
-import com.smartwallet.android.http.ServiceRequest;
-import com.smartwallet.android.http.ServiceRequestListener;
-import com.smartwallet.android.services.ClientManager;
-import com.smartwallet.android.utils.UserManagement;
+import com.mobilewallet.android.http.ServiceRequest;
+import com.mobilewallet.android.http.ServiceRequestListener;
+import com.mobilewallet.android.services.ClientManager;
+import com.mobilewallet.android.utils.UserManagement;
 
 public class AddingBankActivity extends AppCompatActivity implements ServiceRequestListener {
     private EditText bankCode;

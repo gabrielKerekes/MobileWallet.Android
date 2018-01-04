@@ -1,4 +1,4 @@
-package com.smartwallet.android.fragments;
+package com.mobilewallet.android.fragments;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -11,11 +11,11 @@ import android.view.ViewGroup;
 
 import java.util.Arrays;
 
-import com.smartwallet.android.R;
-import com.smartwallet.android.TopicActivity;
-import com.smartwallet.android.adapters.AvailableTopicsAdapter;
-import com.smartwallet.android.services.ClientManager;
-import com.smartwallet.android.services.ToastMaker;
+import com.mobilewallet.android.R;
+import com.mobilewallet.android.TopicActivity;
+import com.mobilewallet.android.adapters.AvailableTopicsAdapter;
+import com.mobilewallet.android.services.ClientManager;
+import com.mobilewallet.android.services.ToastMaker;
 
 /**
  * Created by ROCK LEE on 30.12.2016.

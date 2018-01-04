@@ -1,4 +1,4 @@
-package com.smartwallet.android.pojos;
+package com.mobilewallet.android.pojos;
 
 import android.graphics.Color;
 import android.util.Log;
@@ -8,8 +8,8 @@ import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
 
-import com.smartwallet.android.enums.NotificationStatus;
-import com.smartwallet.android.enums.NotificationType;
+import com.mobilewallet.android.enums.NotificationStatus;
+import com.mobilewallet.android.enums.NotificationType;
 
 /**
  * Created by JakubJ on 22.2.2017.

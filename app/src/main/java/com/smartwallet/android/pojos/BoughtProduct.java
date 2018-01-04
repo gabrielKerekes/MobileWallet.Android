@@ -1,4 +1,4 @@
-package com.smartwallet.android.pojos;
+package com.mobilewallet.android.pojos;
 
 import static android.R.attr.id;
 

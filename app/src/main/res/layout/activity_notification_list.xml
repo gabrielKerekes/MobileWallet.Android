@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
 
-    tools:context="com.smartwallet.android.AddingBankActivity">
+    tools:context="com.mobilewallet.android.AddingBankActivity">
 
     <include
         android:id="@+id/app_bar"

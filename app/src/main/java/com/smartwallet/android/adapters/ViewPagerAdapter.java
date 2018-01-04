@@ -1,4 +1,4 @@
-package com.smartwallet.android.adapters;
+package com.mobilewallet.android.adapters;
 
 import android.content.Context;
 import android.graphics.drawable.Drawable;
@@ -10,9 +10,9 @@ import android.text.Spannable;
 import android.text.SpannableString;
 import android.text.style.ImageSpan;
 
-import com.smartwallet.android.R;
-import com.smartwallet.android.fragments.AvailableTopicsFragment;
-import com.smartwallet.android.fragments.SubscribedTopicsFragment;
+import com.mobilewallet.android.R;
+import com.mobilewallet.android.fragments.AvailableTopicsFragment;
+import com.mobilewallet.android.fragments.SubscribedTopicsFragment;
 
 
 public class ViewPagerAdapter extends FragmentStatePagerAdapter {

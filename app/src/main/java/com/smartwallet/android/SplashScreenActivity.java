@@ -1,4 +1,4 @@
-package com.smartwallet.android;
+package com.mobilewallet.android;
 
 import android.content.Context;
 import android.content.Intent;
@@ -11,8 +11,8 @@ import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.telephony.TelephonyManager;
 
-import com.smartwallet.android.avengerstoken.AvengersMainActivity;
-import com.smartwallet.android.services.ClientManager;
+import com.mobilewallet.android.avengerstoken.AvengersMainActivity;
+import com.mobilewallet.android.services.ClientManager;
 
 /***
  * This is a AvengersMainActivity for this application.
