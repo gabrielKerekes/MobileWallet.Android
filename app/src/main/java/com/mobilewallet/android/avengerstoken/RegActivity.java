@@ -39,6 +39,7 @@ import javax.net.ssl.X509TrustManager;
 import com.mobilewallet.android.R;
 import com.mobilewallet.android.SplashScreenActivity;
 import com.mobilewallet.android.services.ToastMaker;
+import com.mobilewallet.android.utils.HttpsCertificateUtils;
 import com.mobilewallet.android.utils.ServiceIp;
 
 public class RegActivity extends AppCompatActivity {
@@ -147,30 +148,10 @@ public class RegActivity extends AppCompatActivity {
                         HttpsURLConnection urlConnection = null;
                         //HttpURLConnection urlConnection = null;
                         try {
-                            TrustManager[] trustAllCerts = new TrustManager[] { new X509TrustManager() {
-                                public X509Certificate[] getAcceptedIssuers() {
-                                    return null;
-                                }
-
-                                @Override
-                                public void checkClientTrusted(X509Certificate[] arg0, String arg1) {
-                                    // Not implemented
-                                }
-
-                                @Override
-                                public void checkServerTrusted(X509Certificate[] arg0, String arg1) {
-                                    // Not implemented
-                                }
-                            } };
-
-                            SSLContext sc = SSLContext.getInstance("TLS");
-                            sc.init(null, trustAllCerts, new java.security.SecureRandom());
-                            HttpsURLConnection.setDefaultSSLSocketFactory(sc.getSocketFactory());
-                            HttpsURLConnection.setDefaultHostnameVerifier(new NullHostNameVerifier());
-
                             URL url = new URL(ServiceIp.GetIp(context) + "/regDevice?data="+data);
 
                             urlConnection = (HttpsURLConnection)url.openConnection();
+                            urlConnection.setSSLSocketFactory(HttpsCertificateUtils.getSslFactoryWithTrustedCertificate(context));
                             InputStream in = urlConnection.getInputStream();
                             BufferedReader r = new BufferedReader(new InputStreamReader(in));
 

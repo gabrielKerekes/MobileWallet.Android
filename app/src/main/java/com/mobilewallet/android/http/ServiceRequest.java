@@ -107,7 +107,7 @@ public class ServiceRequest {
         listener.onResponse(responseCode, responseString);
     }
 
-    private HttpsURLConnection createConnection(String requestMethod, String contentType, String urlString)
+    public HttpsURLConnection createConnection(String requestMethod, String contentType, String urlString)
             throws NoSuchAlgorithmException, KeyManagementException, IOException
     {
         if (urlString.contains(ServiceIp.SCHOOL_SERVICE_IP)) {
