@@ -26,8 +26,9 @@ import javax.net.ssl.TrustManagerFactory;
 
 public class HttpsCertificateUtils {
     private final static String TAG = "CertificateUtils";
-
     private final static String ROOT_CA_CERTIFICATE_FILE_NAME = "MobileWalletRootCA.pem";
+
+    private static SSLContext mSslContextCache;
 
     private static void addCertFromFileToKeystore(Context context, KeyStore keyStore, String fileName)
             throws IOException, CertificateException, KeyStoreException {
@@ -79,13 +80,15 @@ public class HttpsCertificateUtils {
 
     public static SSLSocketFactory getSslFactoryWithTrustedCertificate(Context context)
             throws KeyStoreException, CertificateException, NoSuchAlgorithmException, IOException, KeyManagementException {
-        KeyStore keyStore = initializeKeystore();
+        if (mSslContextCache == null) {
+            KeyStore keyStore = initializeKeystore();
 
-        addCertFromFileToKeystore(context, keyStore, ROOT_CA_CERTIFICATE_FILE_NAME);
+            addCertFromFileToKeystore(context, keyStore, ROOT_CA_CERTIFICATE_FILE_NAME);
 
-        SSLContext sslContext = SSLContext.getInstance("TLS");
-        sslContext.init(null, initializeTrustManager(keyStore), null);
+            mSslContextCache = SSLContext.getInstance("TLS");
+            mSslContextCache.init(null, initializeTrustManager(keyStore), null);
+        }
 
-        return sslContext.getSocketFactory();
+        return mSslContextCache.getSocketFactory();
     }
 }
