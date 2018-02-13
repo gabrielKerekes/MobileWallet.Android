@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Superwallet</string>
+    <string name="app_name">Mobilewallet</string>
     <string name="action_menu">Menu</string>
     <string name="action_shops">Shops</string>
     <string name="action_token">Go To Token</string>
