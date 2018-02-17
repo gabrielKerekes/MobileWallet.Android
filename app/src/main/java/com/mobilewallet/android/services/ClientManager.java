@@ -9,6 +9,7 @@ import org.eclipse.paho.client.mqttv3.IMqttDeliveryToken;
 import org.eclipse.paho.client.mqttv3.IMqttToken;
 import org.eclipse.paho.client.mqttv3.MqttCallback;
 import org.eclipse.paho.client.mqttv3.MqttClient;
+import org.eclipse.paho.client.mqttv3.MqttConnectOptions;
 import org.eclipse.paho.client.mqttv3.MqttException;
 import org.eclipse.paho.client.mqttv3.MqttMessage;
 import org.json.JSONArray;
@@ -26,6 +27,7 @@ import com.mobilewallet.android.ProductActivity;
 import com.mobilewallet.android.pojos.BoughtProduct;
 import com.mobilewallet.android.pojos.Payment;
 import com.mobilewallet.android.pojos.Product;
+import com.mobilewallet.android.utils.HttpsCertificateUtils;
 
 import static com.mobilewallet.android.services.ToastMaker.makeToast;
 
@@ -162,14 +164,18 @@ public class ClientManager implements MQTTClientInterface{
         String clientId = MqttClient.generateClientId();
         return new MqttAndroidClient(
                 context,
-                "tcp://"+ip+":" + port,
+                "ssl://"+ip+":" + port,
                 clientId);
     }
 
     @Override
     public void connect() {
         try {
-            IMqttToken token = client.connect();
+            MqttConnectOptions connectionOptions = new MqttConnectOptions();
+            connectionOptions.setCleanSession(true);
+            connectionOptions.setSocketFactory(HttpsCertificateUtils.getSslFactoryWithTrustedCertificate(context));
+
+            IMqttToken token = client.connect(connectionOptions);
             token.setActionCallback(new IMqttActionListener() {
                 @Override
                 public void onSuccess(IMqttToken asyncActionToken) {
@@ -191,6 +197,8 @@ public class ClientManager implements MQTTClientInterface{
                 }
             });
         } catch (MqttException e) {
+            e.printStackTrace();
+        } catch (Exception e) {
             e.printStackTrace();
         }
     }
