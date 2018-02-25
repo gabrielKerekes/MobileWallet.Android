@@ -58,7 +58,7 @@
             android:layout_height="wrap_content"
             android:gravity="center_horizontal"
             android:inputType="numberDecimal"
-            android:text="1883"
+            android:text="8883"
             android:ems="10"
             android:id="@+id/editPort" />
 
