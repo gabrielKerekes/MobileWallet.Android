@@ -19,6 +19,7 @@ import javax.net.ssl.SSLContext;
 import javax.net.ssl.SSLSocketFactory;
 import javax.net.ssl.TrustManager;
 import javax.net.ssl.TrustManagerFactory;
+import javax.net.ssl.X509TrustManager;
 
 /**
  * Created by GabrielK on 07-Jan-18.
@@ -90,5 +91,33 @@ public class HttpsCertificateUtils {
         }
 
         return mSslContextCache.getSocketFactory();
+    }
+
+    public static SSLSocketFactory getSslFactoryWithTrustAll(Context context)
+            throws NoSuchAlgorithmException, KeyManagementException {
+        TrustManager[] trustAllCerts = new TrustManager[]{new X509TrustManager()
+        {
+            public X509Certificate[] getAcceptedIssuers()
+            {
+                return null;
+            }
+
+            @Override
+            public void checkClientTrusted(X509Certificate[] arg0, String arg1)
+            {
+                // Not implemented
+            }
+
+            @Override
+            public void checkServerTrusted(X509Certificate[] arg0, String arg1)
+            {
+                // Not implemented
+            }
+        }};
+
+        SSLContext sc = SSLContext.getInstance("TLS");
+        sc.init(null, trustAllCerts, new java.security.SecureRandom());
+
+        return sc.getSocketFactory();
     }
 }
