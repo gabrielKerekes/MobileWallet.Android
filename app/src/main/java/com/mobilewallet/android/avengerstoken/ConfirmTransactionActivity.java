@@ -233,13 +233,4 @@ public class ConfirmTransactionActivity extends AppCompatActivity implements Pin
         Toast t = Toast.makeText(ConfirmTransactionActivity.this, R.string.operation_cancelled, Toast.LENGTH_SHORT);
         t.show();
     }
-
-    public class NullHostNameVerifier implements HostnameVerifier {
-        @Override
-        public boolean verify(String hostname, SSLSession session) {
-            Log.i("RestUtilImpl", "Approving certificate for " + hostname);
-            return true;
-        }
-
-    }
 }

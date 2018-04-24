@@ -38,8 +38,10 @@ import javax.net.ssl.X509TrustManager;
 
 import com.mobilewallet.android.R;
 import com.mobilewallet.android.SplashScreenActivity;
+import com.mobilewallet.android.http.ServiceRequest;
 import com.mobilewallet.android.services.ToastMaker;
 import com.mobilewallet.android.utils.HttpsCertificateUtils;
+import com.mobilewallet.android.utils.NullHostNameVerifier;
 import com.mobilewallet.android.utils.ServiceIp;
 
 public class RegActivity extends AppCompatActivity {
@@ -152,6 +154,9 @@ public class RegActivity extends AppCompatActivity {
 
                             urlConnection = (HttpsURLConnection)url.openConnection();
                             urlConnection.setSSLSocketFactory(HttpsCertificateUtils.getSslFactoryWithTrustedCertificate(context));
+                            // uncomment for trust all
+                            //urlConnection.setHostnameVerifier(new NullHostNameVerifier());
+
                             InputStream in = urlConnection.getInputStream();
                             BufferedReader r = new BufferedReader(new InputStreamReader(in));
 
@@ -310,15 +315,5 @@ public class RegActivity extends AppCompatActivity {
             // should never happen
             throw new RuntimeException("Could not get package name: " + e);
         }
-    }
-
-    public class NullHostNameVerifier implements HostnameVerifier {
-
-        @Override
-        public boolean verify(String hostname, SSLSession session) {
-            Log.i("RestUtilImpl", "Approving certificate for " + hostname);
-            return true;
-        }
-
     }
 }

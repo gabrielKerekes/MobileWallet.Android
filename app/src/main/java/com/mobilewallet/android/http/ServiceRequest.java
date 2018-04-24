@@ -26,6 +26,7 @@ import javax.net.ssl.TrustManager;
 import javax.net.ssl.X509TrustManager;
 
 import com.mobilewallet.android.utils.HttpsCertificateUtils;
+import com.mobilewallet.android.utils.NullHostNameVerifier;
 import com.mobilewallet.android.utils.ServiceIp;
 
 /**
@@ -127,6 +128,8 @@ public class ServiceRequest {
         urlConnection.setRequestProperty("Content-Type", contentType);
         try {
             urlConnection.setSSLSocketFactory(HttpsCertificateUtils.getSslFactoryWithTrustedCertificate(context));
+            // uncomment for trust all
+            //urlConnection.setHostnameVerifier(new NullHostNameVerifier());
         } catch (Exception e) {
             Log.e("ServiceRequest", "urlConnection.setSSLSocketFactory() Error: ", e);
             //Toast.makeText(context, "urlConnection.setSSLSocketFactory() error", Toast.LENGTH_SHORT).show();
@@ -170,13 +173,5 @@ public class ServiceRequest {
         urlConnection.setSSLSocketFactory(sc.getSocketFactory());
 
         return urlConnection;
-    }
-
-    public class NullHostNameVerifier implements HostnameVerifier {
-        @Override
-        public boolean verify(String hostname, SSLSession session) {
-            Log.i("RestUtilImpl", "Approving certificate for " + hostname);
-            return true;
-        }
     }
 }
