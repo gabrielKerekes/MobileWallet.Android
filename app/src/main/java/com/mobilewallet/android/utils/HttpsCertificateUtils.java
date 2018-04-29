@@ -10,11 +10,14 @@ import java.security.KeyManagementException;
 import java.security.KeyStore;
 import java.security.KeyStoreException;
 import java.security.NoSuchAlgorithmException;
+import java.security.UnrecoverableKeyException;
 import java.security.cert.Certificate;
 import java.security.cert.CertificateException;
 import java.security.cert.CertificateFactory;
 import java.security.cert.X509Certificate;
 
+import javax.net.ssl.KeyManager;
+import javax.net.ssl.KeyManagerFactory;
 import javax.net.ssl.SSLContext;
 import javax.net.ssl.SSLSocketFactory;
 import javax.net.ssl.TrustManager;
@@ -28,6 +31,7 @@ import javax.net.ssl.X509TrustManager;
 public class HttpsCertificateUtils {
     private final static String TAG = "CertificateUtils";
     private final static String ROOT_CA_CERTIFICATE_FILE_NAME = "MobileWalletRootCA.pem";
+    private final static String CLIENT_CERT_FILE_NAME = "AndroidClient.p12";
 
     private static SSLContext mSslContextCache;
 
@@ -70,6 +74,22 @@ public class HttpsCertificateUtils {
         return keyStore;
     }
 
+    private static KeyStore initializeClientKeystore(Context context)
+            throws CertificateException, NoSuchAlgorithmException, IOException, KeyStoreException {
+        KeyStore keyStore = KeyStore.getInstance("PKCS12");InputStream certificateInputStream = null;
+        try {
+            AssetManager assetManager = context.getAssets();
+            certificateInputStream = assetManager.open(CLIENT_CERT_FILE_NAME);
+            keyStore.load(certificateInputStream, "projekt".toCharArray());
+        } finally {
+            if (certificateInputStream != null) {
+                certificateInputStream.close();
+            }
+        }
+
+        return keyStore;
+    }
+
     private static TrustManager[] initializeTrustManager(KeyStore keyStore)
             throws NoSuchAlgorithmException, KeyStoreException {
         String tmfAlgorithm = TrustManagerFactory.getDefaultAlgorithm();
@@ -79,15 +99,26 @@ public class HttpsCertificateUtils {
         return tmf.getTrustManagers();
     }
 
+    private static KeyManager[] initializeKeyManager(KeyStore keystore)
+            throws NoSuchAlgorithmException, UnrecoverableKeyException, KeyStoreException {
+        String kmfAlgorithm = KeyManagerFactory.getDefaultAlgorithm();
+        KeyManagerFactory kmf = KeyManagerFactory.getInstance(kmfAlgorithm);
+        kmf.init(keystore, "changeit".toCharArray());
+
+        return kmf.getKeyManagers();
+    }
+
     public static SSLSocketFactory getSslFactoryWithTrustedCertificate(Context context)
-            throws KeyStoreException, CertificateException, NoSuchAlgorithmException, IOException, KeyManagementException {
+            throws KeyStoreException, CertificateException, NoSuchAlgorithmException,
+                IOException, KeyManagementException, UnrecoverableKeyException {
         if (mSslContextCache == null) {
             KeyStore keyStore = initializeKeystore();
+            KeyStore clientKeyStore = initializeClientKeystore(context);
 
             addCertFromFileToKeystore(context, keyStore, ROOT_CA_CERTIFICATE_FILE_NAME);
 
             mSslContextCache = SSLContext.getInstance("TLS");
-            mSslContextCache.init(null, initializeTrustManager(keyStore), null);
+            mSslContextCache.init(initializeKeyManager(clientKeyStore), initializeTrustManager(keyStore), null);
         }
 
         return mSslContextCache.getSocketFactory();
